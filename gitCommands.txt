@@ -1,0 +1,43 @@
+
+After downloading Git for windows:
+1. Setup username and pass
+	git config --global user.name "RaresArion"
+	git config --global user.email "Snoira99@yahoo.com"
+
+ 1.2 Check initial config:
+	git config --global --list
+
+ 1.3 To delete a config:
+ 	git config --global --unset [bad config: user.emai]
+
+2. After this, I can just clone my repo here:
+	git clone https://github.com/[username:RaresArion]/[repo:github-demo]
+
+3. Go to you repository
+	cd /d/GitStuff/github-demo/
+		- You might be in another directory like C: (use 'cd D:' to go to 'D')
+
+4. Create a new branch:
+	git branch 'new-branch' (just creates a new branch)
+	git checkout 'new-branch'(Creates new branch and switch branch from 'main' to 'new-branch')
+
+5. To see branches:
+	git branch (the one with '*' will be the one I am in)
+ 
+ 5.1. To switch between branches:
+ 	git checkout 'new-branch'
+
+ 5.2 Push the branch on git (NOT the changes):
+ 	git push -u origin 'new-branch' (use this if the branch is new)
+
+6. Push to git: (After creating a new file or something):
+	git status (use 'add file' - any file that is new) IF I just MODIFIED a file, don't add it;
+ 
+ 6.1 Use:
+	git commit -a (in the pop-up write why did you do the changes)
+	git push (pushes any modofication)
+
+
+
+
+
