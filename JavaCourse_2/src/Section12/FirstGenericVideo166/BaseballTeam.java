@@ -1,6 +1,7 @@
-package Section12.FirstGeneric;
+package Section12.FirstGenericVideo166;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class BaseballTeam {
 
